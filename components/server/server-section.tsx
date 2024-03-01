@@ -5,6 +5,7 @@ import { ChannelType, MemberRole } from "@prisma/client";
 import { ActionTooltip } from "../action-tooltip";
 import { Plus, Settings } from "lucide-react";
 import { useModal } from "@/hooks/use-modal-store";
+import { useEffect } from "react";
 
 interface ServerSectionProps {
   label: string;
@@ -22,7 +23,6 @@ export const ServerSection = ({
   server
 }: ServerSectionProps) => {
   const { onOpen } = useModal();
-
   return (
     <div className="flex items-center justify-between py-2">
       <p className="text-xs uppercase font-semibold text-zinc-500 dark:text-zinc-400">
