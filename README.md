@@ -41,3 +41,4 @@ next-themes of shadcn-ui
 https://uploadthing.com/: upload for nextjs
 
 livekit: live video => https://docs.livekit.io/realtime/
+https://cloud.livekit.io/projects/p_3jkvc6ftpkx/settings/keys
