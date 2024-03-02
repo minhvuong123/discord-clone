@@ -17,7 +17,7 @@ const ChannelIdPage = async ({
   params
 }: ChannelIdPageProps) => {
   const profile = await currentProfile();
-  console.log("reload")
+
   if (!profile) {
     return redirectToSignIn();
   }

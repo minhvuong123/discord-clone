@@ -55,8 +55,6 @@ export const ChatMessages = ({
     paramValue
   });
 
-  console.log(data)
-
   useChatSocket({ queryKey, addKey, updateKey });
   useChatScroll({
     chatRef, 
