@@ -38,7 +38,6 @@ export const ChatMessages = ({
 }: ChatMessageProps) => {
   const queryKey = `chat:${chatId}`;
   const addKey = `chat:${chatId}:messages`;
-  console.log(addKey)
   const updateKey = `chat:${chatId}:messages:update`;
   const chatRef = useRef<ElementRef<"div">>(null);
   const bottomRef = useRef<ElementRef<"div">>(null);

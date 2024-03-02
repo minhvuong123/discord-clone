@@ -39,3 +39,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 clerk.com: sign in and sign out
 next-themes of shadcn-ui
 https://uploadthing.com/: upload for nextjs
+
+livekit: live video => https://docs.livekit.io/realtime/
